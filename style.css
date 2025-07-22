@@ -199,3 +199,55 @@ footer {
   }
 }
 
+
+@media (max-width: 768px) {
+  .hero {
+    margin: 40px 15px;
+  }
+
+  .hero h2 {
+    font-size: 2rem;
+    letter-spacing: 1.5px;
+  }
+
+  .ranking {
+    margin: 30px 15px;
+    padding: 0 10px;
+  }
+
+  .rank-item {
+    margin-bottom: 40px;
+    padding: 8px;
+  }
+
+  .rank-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .rank-title {
+    font-size: 1.4rem;
+  }
+
+  .critica {
+    font-size: 0.9rem;
+    padding: 0 8px;
+  }
+
+  button#revelarBtn {
+    font-size: 1rem;
+    padding: 12px 20px;
+    margin: 20px 15px;
+    width: calc(100% - 30px);
+  }
+
+  .about {
+    padding: 30px 15px;
+  }
+
+  footer {
+    padding: 15px;
+    font-size: 0.8rem;
+  }
+}
